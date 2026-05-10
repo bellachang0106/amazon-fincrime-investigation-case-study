@@ -1,5 +1,16 @@
 # Case Study: Detecting Proxy Account Networks via Anomaly Pattern Recognition @ Amazon
-
+```mermaid
+graph LR
+    A[Auto-System Screening: PASS] --> B{Bella Identified Anomaly}
+    B -- Naming Pattern Mismatch --> C[Initiated UBO Investigation]
+    C --> D[Document Forensic: Forgery Detected]
+    D --> E[Account Banned & Investigation Closed]
+    E --> F[Drafted New Global SOP]
+    F --> G[Feeding Data into ML/AI Models]
+```
+    
+    style B fill:#deff9a,stroke:#333,stroke-width:2px
+    style G fill:#deff9a,stroke:#333,stroke-width:2px
 ## 🔍 Executive Summary
 In high-volume e-commerce ecosystems, fraudulent actors often use **Proxy Accounts (Straw Man Accounts)** to bypass regional restrictions. This case study details how I identified a sophisticated cross-border fraud ring by detecting "Naming Pattern Mismatches" that automated systems missed, and how I subsequently optimized the global risk-mitigation workflow.
 
