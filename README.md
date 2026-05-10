@@ -1,4 +1,4 @@
-# Amazon Case Study: Financial Crime Investigation
+# Case Study: Financial Crime Investigation @Amazon UK
 ## Detecting Proxy Account Networks via Anomaly Pattern Recognition
 ```mermaid
 graph LR
