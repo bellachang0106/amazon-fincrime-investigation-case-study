@@ -1,5 +1,5 @@
-# Case Study: 
-# Detecting Proxy Account Networks via Anomaly Pattern Recognition @ Amazon
+# Amazon Case Study: Financial Crime Investigation
+## Detecting Proxy Account Networks via Anomaly Pattern Recognition
 ```mermaid
 graph LR
     A[Auto-System Screening: PASS] --> B{Bella Identified Anomaly}
