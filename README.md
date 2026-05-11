@@ -12,6 +12,20 @@ graph LR
     
     style B fill:#deff9a,stroke:#333,stroke-width:2px
     style G fill:#deff9a,stroke:#333,stroke-width:2px
+
+## 🕵️ Investigative Deep-Dive: The "Pinyin" Anomaly
+
+### Case Evidence 01: Naming Pattern Mismatch
+Instead of standard European naming conventions, the storefront metadata revealed a distinct **Mandarin Pinyin structure**, which acted as the initial trigger for my investigation.
+
+| Registrant Profile | Storefront Name (Anomaly) | Logical Conflict |
+| :--- | :--- | :--- |
+| European Individual (UK/EU) | `XingLong-HuHang-MaoYi` | Cultural & Linguistic Mismatch |
+
+### Case Evidence 02: Forensic Document Audit
+Upon requesting further **UBO (Ultimate Beneficial Owner)** documentation, the seller provided forged certificates. My forensic audit identified:
+* **Digital Tampering:** Pixel inconsistencies around the official seal (indicative of Photoshop manipulation).
+* **Typography Analysis:** Inconsistent font weights (Arial mixed with SimSun) within a single official document.
 ```
 ## 🔍 Executive Summary
 In high-volume e-commerce ecosystems, fraudulent actors often use **Proxy Accounts (Straw Man Accounts)** to bypass regional restrictions. This case study details how I identified a sophisticated cross-border fraud ring by detecting "Naming Pattern Mismatches" that automated systems missed, and how I subsequently optimized the global risk-mitigation workflow.
