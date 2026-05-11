@@ -13,6 +13,38 @@ graph LR
     style B fill:#deff9a,stroke:#333,stroke-width:2px
     style G fill:#deff9a,stroke:#333,stroke-width:2px
 ```
+```mermaid
+graph TD
+    %% 第一階段：偵測
+    subgraph "Phase 1: Anomaly Detection"
+    A[System Screening: PASS] --> B{<b>Bella's Audit</b>}
+    B -- "Red Flag Identified" --> C["<b>Naming Pattern Mismatch</b><br/>(European Owner vs. Pinyin Storefront)"]
+    end
+
+    %% 第二階段：鑑定
+    subgraph "Phase 2: Forensic Investigation"
+    C --> D[UBO Deep-Dive Request]
+    D --> E["<b>Forensic Evidence Found</b>"]
+    E --> E1["🚩 <b>Digital Tampering:</b><br/>Photoshop artifacts on Official Seal"]
+    E --> E2["🚩 <b>Typography Error:</b><br/>Inconsistent Font Weights (Arial/SimSun)"]
+    end
+
+    %% 第三階段：結果
+    subgraph "Phase 3: Strategic Impact"
+    E1 & E2 --> F[Account Banned]
+    F --> G["<b>Global Remediation</b>"]
+    G --> G1["Drafted New SOP for Linguistic Anomalies"]
+    G --> G2["Fed Labeled Data to ML/AI Models"]
+    end
+
+    %% 樣式美化
+    style B fill:#f96,stroke:#333,stroke-width:2px
+    style C fill:#fff4dd,stroke:#d4a017,stroke-width:2px
+    style E fill:#ffcccb,stroke:#a00,stroke-width:2px
+    style G fill:#deff9a,stroke:#333,stroke-width:2px
+
+```
+
 ## 🔍 Executive Summary
 In high-volume e-commerce ecosystems, fraudulent actors often use **Proxy Accounts (Straw Man Accounts)** to bypass regional restrictions. This case study details how I identified a sophisticated cross-border fraud ring by detecting "Naming Pattern Mismatches" that automated systems missed, and how I subsequently optimized the global risk-mitigation workflow.
 
