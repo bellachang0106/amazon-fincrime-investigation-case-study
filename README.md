@@ -33,6 +33,21 @@ graph TD
 
 ```
 
+## 🖼️ Forensic Evidence Gallery (Simulated)
+
+> [!NOTE]
+> *To comply with Amazon's data privacy policy, the following are simulated representations of the detected anomalies.*
+
+### 🔍 Evidence A: Digital Manipulation Detection
+I identified **pixel inconsistencies** and **unnatural layer artifacts** around the corporate stamp in the submitted PDF. 
+* **Detection Method:** High-magnification pixel analysis & metadata inspection.
+* **Result:** Confirmed as a Photoshop-altered document.
+
+### 🔍 Evidence B: Typographical Mismatch
+A critical red flag was the presence of **East Asian system fonts (SimSun/PMingLiU)** within a supposedly European-issued certificate.
+* **Detection Method:** Font property extraction.
+* **Result:** Evidence of cross-border forgery using localized software.
+
 ## 🔍 Executive Summary
 In high-volume e-commerce ecosystems, fraudulent actors often use **Proxy Accounts (Straw Man Accounts)** to bypass regional restrictions. This case study details how I identified a sophisticated cross-border fraud ring by detecting "Naming Pattern Mismatches" that automated systems missed, and how I subsequently optimized the global risk-mitigation workflow.
 
