@@ -48,8 +48,8 @@ A critical red flag was the presence of **East Asian system fonts (SimSun/PMingL
 * **Detection Method:** Font property extraction.
 * **Result:** Evidence of cross-border forgery using localized software.
 
-## 🔍 Executive Summary
-In high-volume e-commerce ecosystems, fraudulent actors often use **Proxy Accounts (Straw Man Accounts)** to bypass regional restrictions. This case study details how I identified a sophisticated cross-border fraud ring by detecting "Naming Pattern Mismatches" that automated systems missed, and how I subsequently optimized the global risk-mitigation workflow.
+## 💡 Executive Summary
+I uncovered a cross-border fraud ring by spotting "naming patterns" that automated systems missed. This case study shows how I identified these proxy accounts and upgraded the global audit process.
 
 ---
 
